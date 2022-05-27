@@ -1,0 +1,15 @@
+.ContainerForIcons{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 10px 0px 10px 0px;
+}
+
+.Icons img{
+    width:50px; 
+}
+
+.ContentForIcons{
+    font-size: 1.1rem;
+}

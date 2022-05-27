@@ -1,0 +1,42 @@
+.Content{
+    width:95%;
+    max-width: 1280px;
+    overflow-x: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ContentForImages{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: right;
+}
+
+.Images .Takhfif{
+    color:white;
+    // border-radius: 100%;
+    // background-color: green;
+}
+
+.Images h1{
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-top:40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    // line-height: 105px;
+    background-color: #39ae00;
+    border-radius: 9999px;
+}
+
+.Images{
+    margin-right: 20px;
+}
+
+.ContentForImages a{
+    text-decoration: none;
+}
+
+
+
