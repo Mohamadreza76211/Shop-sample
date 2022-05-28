@@ -1,6 +1,7 @@
 import React from 'react'
 import { NavLink } from "react-router-dom";
 import logo from '../../utility/images/Digikala.png';
+import './Gif.scss'
 
 const Gif = () => {
   return (
@@ -19,13 +20,15 @@ const Gif = () => {
           }}
         />
       </div>
-      <nav className="navbar navbar-style navbar-expand-lg navbar-light bg-light">
+      <nav className="navbar navbar-style navbar-expand navbar-light bg-light">
+        {/* navbar-expand is using to show the navbar that it contains Dashboard,Login,... and it is flex,
+        so it's children will be flex too. */}
      
         <NavLink className="navbar-brand" to="/">
           <img src={logo} alt="" style={{ width: "150px", float: "right" }} />
         </NavLink>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+          <ul className="menu navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
               <NavLink
                 className="nav-link"

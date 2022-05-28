@@ -1,12 +1,13 @@
 import React from 'react'
 import { useSelector } from 'react-redux'
+import './ProductWithHook.scss'
 
 const ProductsWithHook = () => {
 
     const products=useSelector(state=>state)
 
   return (
-    <div className='ContainerForIcons'>
+    <div className='ContainerForIcons col-sm-11'>
         {products.map((item)=>{
             return(
                 <div>

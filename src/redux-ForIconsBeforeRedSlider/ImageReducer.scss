@@ -1,3 +1,8 @@
+@media screen and (min-width:576px) {    
+    .ContentForIcons{
+        font-size: 1rem;
+    }
+}
 .ContainerForIcons{
     display: flex;
     flex-direction: row;
@@ -10,6 +15,6 @@
     width:50px; 
 }
 
-.ContentForIcons{
-    font-size: 1.1rem;
-}
+// .ContentForIcons{
+//     font-size: 1.1rem;
+// }

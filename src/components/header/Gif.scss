@@ -1,0 +1,11 @@
+@media screen and (min-width:576px) {    
+    .menu{
+        position: relative;
+    } 
+    .nav-item{
+        font-size: 14px;
+    }
+    .navbar-nav{
+       flex:none;
+    }
+}

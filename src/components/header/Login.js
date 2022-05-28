@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import './Login.scss'
 
 const Login = () => {
   const [email, setEmail] = useState("");
@@ -6,7 +7,7 @@ const Login = () => {
   console.log(email, password);
   return (
     <div className="row" style = {{margin: "200px" }}>
-      <div className="col-lo-5 col-md-7 mx-auto">
+      <div className="login-form col-lg-5 col-md-7 col-sm-11 mx-auto">
         <div className="card border-success shadow-lg my-2">
           <div className="card-header border-bottom border-success">
             <h4

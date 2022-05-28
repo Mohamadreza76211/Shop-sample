@@ -1,0 +1,14 @@
+.login-form{
+    @media screen and (min-width:576px) {
+            background-color: yellow;
+    }
+    
+    @media screen and (min-width:768px) {
+            background-color: blue;
+    }
+    
+    @media screen and (min-width:992px) {
+            background-color: purple;
+    }
+    
+}
